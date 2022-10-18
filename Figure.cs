@@ -2,11 +2,8 @@
 
 namespace ConsoleApp3
 {
-    interface IPerimetr
-    {
-        double Perimetr { get; }
-    }
-    abstract class figure : IPerimetr
+    
+    abstract class figure 
     {
         protected string Descrptn { get => GetDscrptn(); }
 
